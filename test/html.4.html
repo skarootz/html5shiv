@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Shiv</title>
+
+    <script type="text/javascript">
+     //     html5 = {'shivMethods': false }; // if it is uncommented it works
+      </script>
+
+    <script src="../src/html5shiv.js"></script>
+
+
+</head>
+<body>
+
+<p>After loading the select should display one element with the text "yoo" in IE8, it is working with "html5 = {'shivMethods': false }" but it should work without it</p>
+
+<form name="Foo">
+    <select name="Bar">
+    </select>
+</form>
+
+<script type="text/vbscript">
+<!--
+          Set myOption = document.createElement("option")
+          myOption.text = "yoo"
+          myOption.value = "loo"
+          document.Foo.Bar.add(myOption)
+-->
+</script>
+
+
+</body>
+</html>
